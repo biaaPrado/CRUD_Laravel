@@ -1,0 +1,3 @@
+<?php echo $__env->make('layout._cabecalho', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->yieldContent('conteudo'); ?>
+<?php echo $__env->make('layout._rodape', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\TRABALHO\73B\eid\Crud_eid\resources\views/layout/site.blade.php ENDPATH**/ ?>
